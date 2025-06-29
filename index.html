@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MR.ND PERF - Cartographies Moteur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MR.ND PERF</h1>
+        <p>Optimisation moteur sur mesure – Usage compétition uniquement</p>
+    </header>
+
+    <section id="packs">
+        <h2>Packs Disponibles</h2>
+        <div class="pack">
+            <h3>Stage 1 – 39 €</h3>
+            <a href="https://buy.stripe.com/8x28wPc9h1r831B6pI0Ba01" target="_blank" class="button">Payer par Stripe</a>
+        </div>
+        <div class="pack">
+            <h3>Stage 1 + Options – 55 €</h3>
+            <a href="https://buy.stripe.com/eVq7sLb5dgm27hRg0i0Ba02" target="_blank" class="button">Payer par Stripe</a>
+        </div>
+        <div class="pack">
+            <h3>Pack complet (Track use) – 79 €</h3>
+            <a href="https://buy.stripe.com/bJeaEX7T10n4dGf5lE0Ba03" target="_blank" class="button">Payer par Stripe</a>
+        </div>
+        <div class="pack">
+            <h3>Option personnalisée – 89 €</h3>
+            <a href="https://buy.stripe.com/bJe8wPb5d0n4dGfcO60Ba04" target="_blank" class="button">Payer par Stripe</a>
+        </div>
+    </section>
+
+    <section id="formulaire">
+        <h2>Envoyer votre fichier ECU</h2>
+        <form action="mailto:mrndperf@gmail.com" method="POST" enctype="multipart/form-data">
+            <label>Nom / Prénom :</label><br>
+            <input type="text" name="name" required><br>
+            <label>Email :</label><br>
+            <input type="email" name="email" required><br>
+            <label>Modèle du véhicule :</label><br>
+            <input type="text" name="vehicule" required><br>
+            <label>Boîte :</label><br>
+            <select name="boite">
+                <option value="manuelle">Manuelle</option>
+                <option value="automatique">Automatique</option>
+            </select><br>
+            <label>Options souhaitées :</label><br>
+            <textarea name="options" rows="4" cols="40"></textarea><br>
+            <label>Fichier ECU (.bin, .ori, etc.) :</label><br>
+            <input type="file" name="file" required><br><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 MR.ND PERF – Usage piste / compétition uniquement. Non homologué route.</p>
+    </footer>
+</body>
+</html>
