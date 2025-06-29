@@ -39,3 +39,23 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?auto=format&fit=crop&w=1500&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+}
+.intro {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}

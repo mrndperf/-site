@@ -19,15 +19,23 @@
             <a href="https://buy.stripe.com/8x28wPc9h1r831B6pI0Ba01" target="_blank" class="button">Payer par Stripe</a>
         </div>
         <div class="pack">
-            <h3>Stage 1 + Options – 75 €</h3>
+            <h3>Stage 1+ – 75 €</h3>
+
+            <a href="https://buy.stripe.com/test-stage1plus" target="_blank" class="button">Payer par Stripe</a>
+
+            <a href="https://buy.stripe.com/8x28wPc9h1r831B6pI0Ba01" target="_blank" class="button">Payer par Stripe</a>
+        </div>
+        <div class="pack">
+            <h3>Stage 2 – 90 €</h3>
             <a href="https://buy.stripe.com/eVq7sLb5dgm27hRg0i0Ba02" target="_blank" class="button">Payer par Stripe</a>
         </div>
         <div class="pack">
-            <h3>Stage 2 – 95 €</h3>
+            <h3>Stage personnalisé – 290 €</h3>
             <a href="https://buy.stripe.com/bJeaEX7T10n4dGf5lE0Ba03" target="_blank" class="button">Payer par Stripe</a>
         </div>
         <div class="pack">
-            <h3>Stage personnalisée – 289 €</h3>
+            <h3>Options – 30 €</h3>
+            <p>Vmax / EGR off / DPF off / Popcorn / DSG fart</p>
             <a href="https://buy.stripe.com/bJe8wPb5d0n4dGfcO60Ba04" target="_blank" class="button">Payer par Stripe</a>
         </div>
     </section>
@@ -41,11 +49,25 @@
             <input type="email" name="email" required><br>
             <label>Modèle du véhicule :</label><br>
             <input type="text" name="vehicule" required><br>
-            <label>Boîte :</label><br>
-            <select name="boite">
-                <option value="manuelle">Manuelle</option>
-                <option value="automatique">Automatique</option>
+            <label>Carburant :</label><br>
+            <select name="carburant">
+                <option value="diesel">Diesel</option>
+                <option value="essence">Essence</option>
             </select><br>
+            <label>Motorisation :</label><br>
+            <input type="text" name="motorisation" required><br>
+            <label>Méthode de lecture :</label><br>
+            <select name="lecture">
+                <option value="ktag">K-Tag</option>
+                <option value="kessv2">Kess V2</option>
+                <option value="kt200">KT200</option>
+                <option value="mpps">MPPS</option>
+                <option value="autre">Autre (préciser ci-dessous)</option>
+            </select><br>
+            <label>Précisez la méthode si autre :</label><br>
+            <input type="text" name="lecture_autre"><br>
+            <label>Fichier d’origine fourni ?</label><br>
+            <input type="text" name="fichier_origine" placeholder="Oui / Non"><br>
             <label>Options souhaitées :</label><br>
             <textarea name="options" rows="4" cols="40"></textarea><br>
             <label>Fichier ECU (.bin, .ori, etc.) :</label><br>
